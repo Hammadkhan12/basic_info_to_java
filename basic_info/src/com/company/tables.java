@@ -10,8 +10,10 @@ public class tables {
         Scanner sc =new Scanner(System.in);
          num= sc.nextInt();
 
-         for (multiplayer =0;multiplayer <=10;++multiplayer){
-             System.out.println( num + "*" + multiplayer + "=" + num * multiplayer );
+// condition for table pattren
+        for (multiplayer =0;multiplayer <=10;++multiplayer){
+// formate for table        
+            System.out.println( num + "*" + multiplayer + "=" + num * multiplayer );
 
          }
 
